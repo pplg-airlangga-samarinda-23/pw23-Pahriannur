@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Bila berhasil, $row akan bernilai true
     if ($row) {
-        header("Location: data.php");
+        header("Location:data.php");
     } 
 }
 ?>
